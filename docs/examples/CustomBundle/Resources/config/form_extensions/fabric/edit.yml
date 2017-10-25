@@ -130,6 +130,7 @@ extensions:
             fieldName: code
             required: true
             readOnly: true
+            label: acme_custom.fabric.field.label.code
 
     pim-fabric-edit-form-properties-name:
         module: pim/form/common/fields/text
@@ -139,6 +140,7 @@ extensions:
         config:
             fieldName: name
             required: true
+            label: acme_custom.fabric.field.label.name
 
     pim-fabric-edit-form-properties-alternative_name:
         module: pim/form/common/fields/text
@@ -148,3 +150,4 @@ extensions:
         config:
             fieldName: alternativeName
             required: true
+            label: acme_custom.fabric.field.label.alternative_name
